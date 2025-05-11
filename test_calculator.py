@@ -1,7 +1,7 @@
 import calculator
 
 def test_tambah():
-    assert calculator.tambah(3, 3) == 6
+    assert calculator.tambah(3, 4) == 7
 
 def test_kurang():
     assert calculator.kurang(5, 4) == 1
