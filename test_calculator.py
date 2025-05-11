@@ -1,10 +1,10 @@
 import calculator
 
 def test_tambah():
-    assert calculator.tambah(3, 2) == 5
+    assert calculator.tambah(3, 3) == 6
 
 def test_kurang():
-    assert calculator.kurang(5, 2) == 3
+    assert calculator.kurang(5, 4) == 1
 
 def test_kali():
     assert calculator.kali(4, 3) == 12
